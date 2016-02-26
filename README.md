@@ -13,7 +13,7 @@ Map to show what kind of local activism is best for you.
 
 1. Clone the repository (`git clone git@github.com:Bernie-2016/activism-map.git`)
 2. Install dependencies: `npm install`
-3. Run development server: `gulp serve` and open [http://localhost:8080](http://localhost:9010)
+3. Run development server: `gulp serve` and open [http://localhost:8080](http://localhost:8080)
 
 ### Deployment
 1. Run `gulp build` to generate inlined `dist/index.html` suitable for deployment.
