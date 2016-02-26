@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/Bernie-2016/activism-map#readme",
   "devDependencies": {
-    "coffee-script": "^1.10.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^3.0.0",
