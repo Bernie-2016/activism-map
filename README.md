@@ -1,6 +1,6 @@
-# how-to-vote
+# activism-map
 
-Information about how to vote for Bernie Sanders in each state.
+Map to show what kind of local activism is best for you.
 
 ## Development
 
@@ -11,18 +11,16 @@ Information about how to vote for Bernie Sanders in each state.
 
 ### Setup
 
-1. Clone the repository (`git clone git@github.com:Bernie-2016/how-to-vote.git`)
+1. Clone the repository (`git clone git@github.com:Bernie-2016/activism-map.git`)
 2. Install dependencies: `npm install`
-3. Run development server: `npm start` and open [http://localhost:8080](http://localhost:8080)
+3. Run development server: `gulp serve` and open [http://localhost:8080](http://localhost:9010)
 
 ### Deployment
-1. Add valid IAM credentials in `credentials.json`.
-2. Run `npm run webpack` to generate production assets.
-3. Run `npm run deploy` to deploy.
+1. Run `gulp build` to generate inlined `dist/index.html` suitable for deployment.
 
 ## Contributing
 
-1. Fork it ( https://github.com/Bernie-2016/how-to-vote/fork )
+1. Fork it ( https://github.com/Bernie-2016/activism-map/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
